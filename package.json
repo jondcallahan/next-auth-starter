@@ -9,12 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "11.1.2",
+    "@prisma/client": "^3.4.2",
+    "bcryptjs": "^2.4.3",
+    "date-fns": "^2.25.0",
+    "detect-browser": "^5.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "nanoid": "^3.1.30",
+    "next": "^12.0.3",
+    "nodemailer": "^6.7.0",
+    "nookies": "^2.5.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "superjson": "^1.8.0"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/nodemailer": "^6.4.4",
+    "@types/react": "^17.0.34",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "^12.0.3",
+    "npm": "^8.0.0",
+    "prettier": "^2.4.0",
+    "prisma": "^3.4.2"
   }
 }
